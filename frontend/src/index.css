@@ -161,8 +161,8 @@ input[type="search"] {
     font-size: 0.1rem;
     margin-left: -150px;
   }
-  h1 span{
-      text-align: left;
+  h1 span {
+    text-align: left;
   }
 
   input[type="search"] {
@@ -181,44 +181,45 @@ input[type="search"] {
     margin-bottom: 20px;
     margin-left: 45px;
   }
-  .btn, button{
-  display: inline-block;
-  background: red;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 8px;
-  text-align: center;
-  border: none;
-  line-height: 0.8;
-  padding: 10px;
-}
-table {
-  max-width: 100%;
-  width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-top: 1px solid #dee2e6;
-  border-left: 1px solid #dee2e6;
-  color: white;
-  font-weight: bold;
-  margin: 0 auto;
-}
-table thead th {
-  vertical-align: bottom;
-  color: red;
-  font-weight: bolder;
-}
+  .btn,
+  button {
+    display: inline-block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    line-height: 0.8;
+    padding: 10px;
+  }
+  table {
+    max-width: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  table thead th {
+    vertical-align: bottom;
+    color: red;
+    font-weight: bolder;
+  }
 
-td,
-th {
-  padding: 0.3rem;
-  border-bottom: 1px solid #dee2e6;
-  border-right: 1px solid #dee2e6;
-}
-table td,
-table th {
-  padding: 0.5rem;
-  vertical-align: top;
-}
+  td,
+  th {
+    padding: 0.3rem;
+    border-bottom: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+  }
+  table td,
+  table th {
+    padding: 0.5rem;
+    vertical-align: top;
+  }
 }

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Navigate, Outlet, useLocation } from 'react-router-dom';
-import Cookies from 'universal-cookie';
+import React from "react";
+import { Navigate, Outlet, useLocation } from "react-router-dom";
+import Cookies from "universal-cookie";
 
 const ProtectedPaths = () => {
   const cookies = new Cookies();
-  const token = cookies.get('TOKEN');
+  const token = cookies.get("TOKEN");
   const location = useLocation();
 
   // If token exists, return an outlet that will render child elements
